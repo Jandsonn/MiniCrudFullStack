@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    background-color: #fff;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar li :hover { color: rgb(206, 190, 69); 
+    text-shadow: rgb(206, 190, 69);
+    
+}
+
+#navbar ul li{
+    margin-left:1rem;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(208, 196, 196);
+}
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    float: right;
+    color: rgb(206, 190, 69);
+    
+}
+
+.title{
+    color: chocolate;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: -35px;
+}
+
+.task-list {
+    list-style:none;
+    margin-top: 1em;
+    flex-direction: column;
+}
+
+.list-group-item li{
+    padding: 4em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #EFEFEF;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px 1px rgb(176, 156, 6);
+    flex-direction: column;
+}
+
+i{
+    margin-right: 30px;
+    padding: 1rem;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+h2{
+    color:rgb(176, 156, 6);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.actions form {
+    margin:0;
+}
+
+.actions button{
+    background-color: transparent;
+    border:none;
+    cursor:pointe;
+    display: flex;
+    flex-direction: column;
+}
