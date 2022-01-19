@@ -58,6 +58,11 @@ html{
     margin-top: -35px;
 }
 
+.title.done {
+    text-decoration: line-through;
+    color:#ccc;
+}
+
 .task-list {
     list-style:none;
     margin-top: 1em;
@@ -98,3 +103,4 @@ h2{
     display: flex;
     flex-direction: column;
 }
+
