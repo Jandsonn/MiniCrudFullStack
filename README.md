@@ -1,4 +1,4 @@
-MinuCrudFullStack
+MiniCrudFullStack
 
 O MinuCrudFullStack é um projeto completo de gerenciamento de tarefas, onde os usuários podem adicionar, editar e remover tarefas. Ele utiliza as tecnologias JavaScript, Node.js, Handlebars, HTML e CSS para oferecer uma interface intuitiva e interativa.
 
